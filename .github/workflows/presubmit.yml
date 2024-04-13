@@ -37,11 +37,11 @@ jobs:
           - os: ubuntu-22.04
             online-compiler: false
             compiler-available: false
-         - os: ubuntu-22.04
-          online-compiler: true
-           compiler-available: true
-#            android-abi: arm64-v8a
-#            android: Android
+          - os: ubuntu-22.04
+            online-compiler: true
+            compiler-available: true
+#           android-abi: arm64-v8a
+#           android: Android
           - os: windows-2019
             online-compiler: true
             unit: true
